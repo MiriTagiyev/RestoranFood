@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exotic Eats - Quality eats</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+  <header class="header" data-header>
+
+    <div class="top-bar">
+      <div class="top-bar-wrapper">
+          <img src="/assets/yeni/azerbaijan.png" alt="">
+          <a href="login.html"><i class="fa-solid fa-right-to-bracket"></i></a>
+      </div>
+      <div class="top-bar-header">
+      <div class="top-bar-part1">
+        <i class="fa-solid fa-clock"></i> <p>12:00 - 00:00</p>
+      </div>
+      <div class="top-bar-part2">
+        <img src="/assets/yeni/Mikro.png" alt="">
+      </div>
+      <div class="top-bar-part3">
+        <i class="fa-solid fa-location-dot"></i> <p>Mirzə İbrahimov</p>
+</div>
+    </div>
+    </div>
+  </header>
+
+<div class="info-header">
+  <h2>Siesco Coffee & Wine</h2>
+  <p>"Siesco Coffee & Wine" keyfiyyətli içkiləri və yeməklərlə birlikdə, dost canlısı xidmət və mükəmməl atmosferi ilə ziyarətçilər üçün unudulmaz bir təcrübə təmin edir.</p>
+  <div class="info-icon">
+    <div class="info-contact-part1"><i class="fa-solid fa-motorcycle"></i> <p>Çatdırılma</p></div>
+    <div class="info-contact-part2"><i class="fa-solid fa-burger"></i> <p>Al-apar</p></div>
+    <div class="info-contact-part3"><i class="fa-solid fa-couch"></i> <p>Rezervesiya</p></div>
+  </div>
+  <div class="info-contact">
+    <div class="info-icon-part1"><i class="fa-brands fa-facebook-f"></i></div>
+    <div class="info-icon-part1"><i class="fa-brands fa-instagram"></i></div>
+    <div class="info-icon-part1"><i class="fa-brands fa-tiktok"></i></div>
+    <div class="info-icon-part1"><i class="fa-solid fa-phone"></i></div>
+    <div class="info-icon-part1"><i class="fa-solid fa-wifi"></i></div>
+  </div>
+</div>
+
+<div class="menyu-header">
+  <div class="menyu-header-part1 active" id="menyu1" onclick="toggleActive('menyu1')">
+    <i class="fas fa-hand-holding-droplet"></i>
+    <p>Menyu</p>
+  </div>
+  <div class="menyu-header-part1" id="menyu2" onclick="toggleActive('menyu2')">
+    <i class="fas fa-blog"></i>
+    <p>Rezervasiya</p>
+  </div>
+  <div class="menyu-header-part1" id="menyu3" onclick="toggleActive('menyu3')">
+    <i class="fas fa-thumbs-up"></i>
+    <p>Dəyərləndirmə</p>
+  </div>
+  <div class="menyu-header-part1" id="menyu4" onclick="toggleActive('menyu4')">
+    <i class="fas fa-weight-scale"></i>
+    <p>Tədbirlər</p>
+  </div>
+</div>
+
+<section class="menyu01">
+
+  <main>
+    <div class="container-basliq">
+      Günün təamları
+    </div>
+    <article>
+      <div class="slide-header">
+      <div class="slide-container swiper">
+        <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+      
+                    <div class="card-image">
+                      <img src="/assets/yeni/lule.jpg" alt="" class="card-img">
+                    </div>
+                </div>
+      
+                <div class="card-content">
+                    <h2 class="name">Lülə kabab
+      </h2>
+                    <div class="card-price"><p class="description">6.00 <i class="fa-solid fa-m"></i></p></div> 
+      
+                    <div class="card-info"><i class="fa-solid fa-cart-shopping"></i> Səbətə at</div>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                  <span class="overlay"></span>
+    
+                  <div class="card-image">
+                    <img src="/assets/yeni/gobelek.jpg" alt="" class="card-img">
+                  </div>
+              </div>
+    
+              <div class="card-content">
+                  <h2 class="name">Göbələk supu
+    </h2>
+                  <div class="card-price"><p class="description">5.00 <i class="fa-solid fa-m"></i></p></div> 
+    
+                  <div class="card-info"><i class="fa-solid fa-cart-shopping"></i> Səbətə at</div>
+              </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="image-content">
+                <span class="overlay"></span>
+  
+                <div class="card-image">
+                  <img src="/assets/yeni/pizza.jpg" alt="" class="card-img">
+                </div>
+            </div>
+  
+            <div class="card-content">
+                <h2 class="name">Pizza Qarışıq
+  </h2>
+                <div class="card-price"><p class="description">16.00 <i class="fa-solid fa-m"></i></p></div> 
+  
+                <div class="card-info"><i class="fa-solid fa-cart-shopping"></i> Səbətə at</div>
+            </div>
+        </div>
+        <div class="card swiper-slide">
+          <div class="image-content">
+              <span class="overlay"></span>
+
+              <div class="card-image">
+                <img src="/assets/yeni/efes.jpg" alt="" class="card-img">
+              </div>
+          </div>
+
+          <div class="card-content">
+              <h2 class="name">Efes Draft
+</h2>
+              <div class="card-price"><p class="description">8.00 <i class="fa-solid fa-m"></i></p></div> 
+
+              <div class="card-info"><i class="fa-solid fa-cart-shopping"></i> Səbətə at</div>
+          </div>
+      </div>
+      <div class="card swiper-slide">
+        <div class="image-content">
+            <span class="overlay"></span>
+
+            <div class="card-image">
+              <img src="/assets/yeni/sutlac.jpg" alt="" class="card-img">
+            </div>
+        </div>
+
+        <div class="card-content">
+            <h2 class="name">Sütlaç
+</h2>
+            <div class="card-price"><p class="description">4.50 <i class="fa-solid fa-m"></i></p></div> 
+
+            <div class="card-info"><i class="fa-solid fa-cart-shopping"></i> Səbətə at</div>
+        </div>
+    </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+    
+                        <div class="card-image">
+                           <img src="/assets/yeni/1.jpg" alt="" class="card-img">
+                        </div>
+                    </div>
+    
+                    <div class="card-content">
+                        <h2 class="name">Vetçinalı tost
+    </h2>
+                        <div class="card-price"><p class="description">6.00 <i class="fa-solid fa-m"></i></p></div> 
+    
+                        <div class="card-info"><i class="fa-solid fa-cart-shopping"></i> Səbətə at</div>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                  <div class="image-content">
+                      <span class="overlay"></span>
+    
+                      <div class="card-image">
+                        <img src="/assets/yeni/2.jpg" alt="" class="card-img">
+                      </div>
+                  </div>
+    
+                  <div class="card-content">
+                      <h2 class="name">Pendir boşqabı
+    </h2>
+                      <div class="card-price"><p class="description">7.00 <i class="fa-solid fa-m"></i></p></div> 
+    
+                      <div class="card-info"><i class="fa-solid fa-cart-shopping"></i> Səbətə at</div>
+                  </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                    <span class="overlay"></span>
+    
+                    <div class="card-image">
+                      <img src="/assets/yeni/3.jpg" alt="" class="card-img">
+                    </div>
+                </div>
+    
+                <div class="card-content">
+                    <h2 class="name">Latte
+    </h2>
+                    <div class="card-price"><p class="description">4.00 / 4.50 <i class="fa-solid fa-m"></i></p></div> 
+    
+                    <div class="card-info"><i class="fa-solid fa-cart-shopping"></i> Səbətə at</div>
+                </div>
+            </div>
+            <div class="card swiper-slide">
+              <div class="image-content">
+                  <span class="overlay"></span>
+    
+                  <div class="card-image">
+                    <img src="/assets/yeni/4.jpg" alt="" class="card-img">
+                  </div>
+              </div>
+    
+              <div class="card-content">
+                  <h2 class="name">Fettuccine
+    </h2>
+                  <div class="card-price"><p class="description">9.00 <i class="fa-solid fa-m"></i></p></div> 
+    
+                  <div class="card-info"><i class="fa-solid fa-cart-shopping"></i> Səbətə at</div>
+              </div>
+          </div>
+         
+        </div>
+    </div>
+    </div>
+  </div>
+
+      <section class="section newsletter">
+       <div class="type-header">
+        <div id="secim1" class="type-header-part2"><p>Yeməklər</p></div>
+        <div id="secim2" class="type-header-part1"><p>Qəhvələr</p></div>
+        <div id="secim3" class="type-header-part3"><p>Şərablar</p></div>
+       </div>
+      </section>
+
+    </article>
+  </main>
+
+  <div class="yemekler">
+    <div class="menyu-slide-title">
+      <h2>Yemək çeşitlərimiz</h2>
+    </div>
+    <section class="section product">
+      <div class="container">
+        <!-- <ul class="filter-list">
+    
+          <li>
+            <button class="filter-btn active">
+              <img src="./assets/images/filter-1.png" width="20" alt="" class="default">
+    
+              <img src="./assets/images/filter-1-active.png" width="20" alt="" class="color">
+    
+              <p class="filter-text">Fresh Vegetables</p>
+            </button>
+          </li>
+    
+          <li>
+            <button class="filter-btn">
+              <img src="./assets/images/filter-2.png" width="20" alt="" class="default">
+    
+              <img src="./assets/images/filter-2-active.png" width="20" alt="" class="color">
+    
+              <p class="filter-text">Fish & Meat</p>
+            </button>
+          </li>
+    
+          <li>
+            <button class="filter-btn">
+              <img src="./assets/images/filter-3.png" width="20" alt="" class="default">
+    
+              <img src="./assets/images/filter-3-active.png" width="20" alt="" class="color">
+    
+              <p class="filter-text">Healthy Fruit</p>
+            </button>
+          </li>
+    
+          <li>
+            <button class="filter-btn">
+              <img src="./assets/images/filter-1.png" width="20" alt="" class="default">
+    
+              <img src="./assets/images/filter-1-active.png" width="20" alt="" class="color">
+    
+              <p class="filter-text">Dairy Products</p>
+            </button>
+          </li>
+    
+        </ul> -->
+    
+        <ul class="grid-list">
+    
+          <li>
+            <div class="product-card">
+    
+              <figure class="card-banner">
+                <img src="./assets/yeni/yemek1.jpg" width="239" height="239" loading="lazy" alt="Fresh Orangey">
+    
+                <div class="btn-wrapper">
+    
+                </div>
+              </figure>
+    
+              <div class="rating-wrapper">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+              </div>
+    
+              <h3 class="h4 card-title">
+                <a href="./product-details.html">Çöp Şiş</a>
+              </h3>
+    
+              <div class="price-wrapper">
+                <data class="price" value="3.50">  12.80 azn</data>
+              </div>
+    
+              <button class="btn btn-primary" id="addToCartBtn1" onclick="addToCart(1)"><i class="fa-solid fa-cart-shopping"></i> Səbətə at</button>
+    
+    
+            </div>
+          </li>
+    
+          <li>
+            <div class="product-card">
+    
+              <figure class="card-banner">
+                <img src="./assets/yeni/yemek2.jpg" width="239" height="239" loading="lazy" alt="key Lime">
+    
+                <div class="btn-wrapper">
+                </div>
+              </figure>
+    
+              <div class="rating-wrapper">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+              </div>
+    
+              <h3 class="h4 card-title">
+                <a href="./product-details.html">Toyuq Xamada</a>
+              </h3>
+    
+              <div class="price-wrapper">
+                <data class="price" value="4.50"> 11.50 azn</data>
+              </div>
+    
+              <button class="btn btn-primary" id="addToCartBtn1" onclick="addToCart(1)"><i class="fa-solid fa-cart-shopping"></i> Səbətə at</button>
+    
+    
+            </div>
+          </li>
+    
+          <li>
+            <div class="product-card">
+    
+              <figure class="card-banner">
+                <img src="./assets/yeni/yemek3.jpg" width="239" height="239" loading="lazy"
+                  alt="Fresh Watermelon">
+    
+                <div class="btn-wrapper">
+                </div>
+              </figure>
+    
+              <div class="rating-wrapper">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+              </div>
+    
+              <h3 class="h4 card-title">
+                <a href="./product-details.html">Göbələk qovurma</a>
+              </h3>
+    
+              <div class="price-wrapper">
+                <data class="price" value="3.50">  13.50 azn</data>
+              </div>
+    
+              <button class="btn btn-primary" id="addToCartBtn1" onclick="addToCart(1)"><i class="fa-solid fa-cart-shopping"></i> Səbətə at</button>
+    
+    
+            </div>
+          </li>
+    
+          <li>
+            <div class="product-card">
+    
+              <figure class="card-banner">
+                <img src="./assets/yeni/yemek4.jpg" width="239" height="239" loading="lazy" alt="Visual matches">
+    
+                <div class="btn-wrapper">
+                </div>
+              </figure>
+    
+              <div class="rating-wrapper">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+              </div>
+    
+              <h3 class="h4 card-title">
+                <a href="./product-details.html">Pasta </a>
+              </h3>
+    
+              <div class="price-wrapper">
+                <data class="price" value="3.50">  10.20 azn</data>
+              </div>
+    
+              <button class="btn btn-primary" id="addToCartBtn1" onclick="addToCart(1)"><i class="fa-solid fa-cart-shopping"></i> Səbətə at</button>
+    
+    
+            </div>
+          </li>
+    
+          <li>
+            <div class="product-card">
+    
+              <figure class="card-banner">
+                <img src="./assets/yeni/yemek5.jpg" width="239" height="239" loading="lazy"
+                  alt="Pomagranate Fruit">
+    
+                <div class="btn-wrapper">
+                </div>
+              </figure>
+    
+              <div class="rating-wrapper">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+              </div>
+    
+              <h3 class="h4 card-title">
+                <a href="./product-details.html">Pirzola</a>
+              </h3>
+    
+              <div class="price-wrapper">
+                <data class="price" value="3.50">  17.50 azn</data>
+              </div>
+    
+              <button class="btn btn-primary" id="addToCartBtn1" onclick="addToCart(1)"><i class="fa-solid fa-cart-shopping"></i> Səbətə at</button>
+    
+    
+            </div>
+          </li>
+    
+    
+        </ul>
+    
+      </div>
+    </section> 
+    </div>
+<div class="qehveler">
+<div class="menyu-slide-title">
+  <h2>Qəhvə çeşitlərimiz</h2>
+</div>
+<section class="section product">
+  <div class="container">
+    <!-- <ul class="filter-list">
+
+      <li>
+        <button class="filter-btn active">
+          <img src="./assets/images/filter-1.png" width="20" alt="" class="default">
+
+          <img src="./assets/images/filter-1-active.png" width="20" alt="" class="color">
+
+          <p class="filter-text">Fresh Vegetables</p>
+        </button>
+      </li>
+
+      <li>
+        <button class="filter-btn">
+          <img src="./assets/images/filter-2.png" width="20" alt="" class="default">
+
+          <img src="./assets/images/filter-2-active.png" width="20" alt="" class="color">
+
+          <p class="filter-text">Fish & Meat</p>
+        </button>
+      </li>
+
+      <li>
+        <button class="filter-btn">
+          <img src="./assets/images/filter-3.png" width="20" alt="" class="default">
+
+          <img src="./assets/images/filter-3-active.png" width="20" alt="" class="color">
+
+          <p class="filter-text">Healthy Fruit</p>
+        </button>
+      </li>
+
+      <li>
+        <button class="filter-btn">
+          <img src="./assets/images/filter-1.png" width="20" alt="" class="default">
+
+          <img src="./assets/images/filter-1-active.png" width="20" alt="" class="color">
+
+          <p class="filter-text">Dairy Products</p>
+        </button>
+      </li>
+
+    </ul> -->
+
+    <ul class="grid-list">
+
+      <li>
+        <div class="product-card">
+
+          <figure class="card-banner">
+            <img src="./assets/yeni/isti1.jpg" width="239" height="239" loading="lazy" alt="Fresh Orangey">
+
+            <div class="btn-wrapper">
+
+            </div>
+          </figure>
+
+          <div class="rating-wrapper">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+          </div>
+
+          <h3 class="h4 card-title">
+            <a href="./product-details.html">Espresso</a>
+          </h3>
+
+          <div class="price-wrapper">
+            <data class="price" value="3.50">  3.50 azn</data>
+          </div>
+
+          <button class="btn btn-primary" id="addToCartBtn1" onclick="addToCart(1)"><i class="fa-solid fa-cart-shopping"></i> Səbətə at</button>
+
+
+        </div>
+      </li>
+
+      <li>
+        <div class="product-card">
+
+          <figure class="card-banner">
+            <img src="./assets/yeni/isti2.jpg" width="239" height="239" loading="lazy" alt="key Lime">
+
+            <div class="btn-wrapper">
+            </div>
+          </figure>
+
+          <div class="rating-wrapper">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+          </div>
+
+          <h3 class="h4 card-title">
+            <a href="./product-details.html">Latte</a>
+          </h3>
+
+          <div class="price-wrapper">
+            <data class="price" value="4.50"> 4.50 azn</data>
+          </div>
+
+          <button class="btn btn-primary" id="addToCartBtn1" onclick="addToCart(1)"><i class="fa-solid fa-cart-shopping"></i> Səbətə at</button>
+
+
+        </div>
+      </li>
+
+      <li>
+        <div class="product-card">
+
+          <figure class="card-banner">
+            <img src="./assets/yeni/isti3.jpg" width="239" height="239" loading="lazy"
+              alt="Fresh Watermelon">
+
+            <div class="btn-wrapper">
+            </div>
+          </figure>
+
+          <div class="rating-wrapper">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+          </div>
+
+          <h3 class="h4 card-title">
+            <a href="./product-details.html">Cappuccino</a>
+          </h3>
+
+          <div class="price-wrapper">
+            <data class="price" value="3.50">  4.50 azn</data>
+          </div>
+
+          <button class="btn btn-primary" id="addToCartBtn1" onclick="addToCart(1)"><i class="fa-solid fa-cart-shopping"></i> Səbətə at</button>
+
+
+        </div>
+      </li>
+
+      <li>
+        <div class="product-card">
+
+          <figure class="card-banner">
+            <img src="./assets/yeni/isti4.jpg" width="239" height="239" loading="lazy" alt="Visual matches">
+
+            <div class="btn-wrapper">
+            </div>
+          </figure>
+
+          <div class="rating-wrapper">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+          </div>
+
+          <h3 class="h4 card-title">
+            <a href="./product-details.html">Latte Macchiato </a>
+          </h3>
+
+          <div class="price-wrapper">
+            <data class="price" value="3.50">  5.50 azn</data>
+          </div>
+
+          <button class="btn btn-primary" id="addToCartBtn1" onclick="addToCart(1)"><i class="fa-solid fa-cart-shopping"></i> Səbətə at</button>
+
+
+        </div>
+      </li>
+
+      <li>
+        <div class="product-card">
+
+          <figure class="card-banner">
+            <img src="./assets/yeni/isti5.jpg" width="239" height="239" loading="lazy"
+              alt="Pomagranate Fruit">
+
+            <div class="btn-wrapper">
+            </div>
+          </figure>
+
+          <div class="rating-wrapper">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+          </div>
+
+          <h3 class="h4 card-title">
+            <a href="./product-details.html">Mocha</a>
+          </h3>
+
+          <div class="price-wrapper">
+            <data class="price" value="3.50">  5.50 azn</data>
+          </div>
+
+          <button class="btn btn-primary" id="addToCartBtn1" onclick="addToCart(1)"><i class="fa-solid fa-cart-shopping"></i> Səbətə at</button>
+
+
+        </div>
+      </li>
+    </ul>
+
+  </div>
+</section> 
+</div>
+
+  <div class="serablar">
+    <div class="menyu-slide-title">
+      <h2>Şərab çeşitlərimiz</h2>
+    </div>
+    <section class="section product">
+      <div class="container">
+        <!-- <ul class="filter-list">
+    
+          <li>
+            <button class="filter-btn active">
+              <img src="./assets/images/filter-1.png" width="20" alt="" class="default">
+    
+              <img src="./assets/images/filter-1-active.png" width="20" alt="" class="color">
+    
+              <p class="filter-text">Fresh Vegetables</p>
+            </button>
+          </li>
+    
+          <li>
+            <button class="filter-btn">
+              <img src="./assets/images/filter-2.png" width="20" alt="" class="default">
+    
+              <img src="./assets/images/filter-2-active.png" width="20" alt="" class="color">
+    
+              <p class="filter-text">Fish & Meat</p>
+            </button>
+          </li>
+    
+          <li>
+            <button class="filter-btn">
+              <img src="./assets/images/filter-3.png" width="20" alt="" class="default">
+    
+              <img src="./assets/images/filter-3-active.png" width="20" alt="" class="color">
+    
+              <p class="filter-text">Healthy Fruit</p>
+            </button>
+          </li>
+    
+          <li>
+            <button class="filter-btn">
+              <img src="./assets/images/filter-1.png" width="20" alt="" class="default">
+    
+              <img src="./assets/images/filter-1-active.png" width="20" alt="" class="color">
+    
+              <p class="filter-text">Dairy Products</p>
+            </button>
+          </li>
+    
+        </ul> -->
+    
+        <ul class="grid-list">
+    
+          <li>
+            <div class="product-card">
+    
+              <figure class="card-banner">
+                <img src="./assets/yeni/serab1.jpg" width="239" height="239" loading="lazy" alt="Fresh Orangey">
+    
+                <div class="btn-wrapper">
+    
+                </div>
+              </figure>
+    
+              <div class="rating-wrapper">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+              </div>
+    
+              <h3 class="h4 card-title">
+                <a href="./product-details.html">Granat</a>
+              </h3>
+    
+              <div class="price-wrapper">
+                <data class="price" value="3.50">  12.50 azn</data>
+              </div>
+    
+              <button class="btn btn-primary" id="addToCartBtn1" onclick="addToCart(1)"><i class="fa-solid fa-cart-shopping"></i> Səbətə at</button>
+    
+    
+            </div>
+          </li>
+    
+          <li>
+            <div class="product-card">
+    
+              <figure class="card-banner">
+                <img src="./assets/yeni/serab2.jpg" width="239" height="239" loading="lazy" alt="key Lime">
+    
+                <div class="btn-wrapper">
+                </div>
+              </figure>
+    
+              <div class="rating-wrapper">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+              </div>
+    
+              <h3 class="h4 card-title">
+                <a href="./product-details.html">Çinar</a>
+              </h3>
+    
+              <div class="price-wrapper">
+                <data class="price" value="4.50"> 11.50 azn</data>
+              </div>
+    
+              <button class="btn btn-primary" id="addToCartBtn1" onclick="addToCart(1)"><i class="fa-solid fa-cart-shopping"></i> Səbətə at</button>
+    
+    
+            </div>
+          </li>
+    
+          <li>
+            <div class="product-card">
+    
+              <figure class="card-banner">
+                <img src="./assets/yeni/serab3.jpg" width="239" height="239" loading="lazy"
+                  alt="Fresh Watermelon">
+    
+                <div class="btn-wrapper">
+                </div>
+              </figure>
+    
+              <div class="rating-wrapper">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+              </div>
+    
+              <h3 class="h4 card-title">
+                <a href="./product-details.html">Çinar</a>
+              </h3>
+    
+              <div class="price-wrapper">
+                <data class="price" value="3.50">  12.50 azn</data>
+              </div>
+    
+              <button class="btn btn-primary" id="addToCartBtn1" onclick="addToCart(1)"><i class="fa-solid fa-cart-shopping"></i> Səbətə at</button>
+    
+    
+            </div>
+          </li>
+          <li>
+            <div class="product-card">
+    
+              <figure class="card-banner">
+                <img src="./assets/yeni/serab4.jpg" width="239" height="239" loading="lazy"
+                  alt="Fresh Watermelon">
+    
+                <div class="btn-wrapper">
+                </div>
+              </figure>
+    
+              <div class="rating-wrapper">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+              </div>
+    
+              <h3 class="h4 card-title">
+                <a href="./product-details.html">Sevgilim</a>
+              </h3>
+    
+              <div class="price-wrapper">
+                <data class="price" value="3.50">  9.50 azn</data>
+              </div>
+    
+              <button class="btn btn-primary" id="addToCartBtn1" onclick="addToCart(1)"><i class="fa-solid fa-cart-shopping"></i> Səbətə at</button>
+    
+    
+            </div>
+          </li>
+    
+        </ul>
+    
+      </div>
+    </section> 
+    </div>
+</section>
+
+<section class="menyu02">
+  <h2>Rezervasiya</h2>
+  <form action="#">
+    <div class="menyu-reserve-part1"><i class="fa-solid fa-user"></i><input type="text" placeholder="Ad soyad"></div>
+    <div class="menyu-reserve-part1"><i class="fa-solid fa-calendar-days"></i><input type="date"></div>
+    <div class="menyu-reserve-part1"><i class="fa-solid fa-clock"></i><input type="time"></div>
+    <div class="menyu-reserve-part1"><i class="fa-solid fa-phone"></i><input type="text" placeholder="Telefon nömrəsi"></div>
+    <div class="menyu-reserve-part1"><i class="fa-solid fa-circle-user"></i><input type="number" placeholder="Adam sayı"></div>
+    <div class="menyu-reserve-part1"><i class="fa-solid fa-pen"></i><input type="text" placeholder="Qeyd"></div>
+    <div class="menyu-reserve-btn"><button>Təsdiqlə</button></div>
+
+  </form>
+</section>
+
+<section class="menyu03">
+  <h2>Bizi dəyərləndir</h2>
+  <div class="xidmet-services-part1">
+    <h3>Xidməti dəyərləndir</h3>
+    <div class="xidmet-services-part2">
+      <img src="/assets/yeni/esebi.png" alt="">
+      <img src="/assets/yeni/uzgun.png" alt="">
+      <img src="/assets/yeni/sad.png" alt="">
+      <img src="/assets/yeni/ego.png" alt="">
+      <img id="ulduz" src="/assets/yeni/ulduz.gif" alt="">
+    </div>
+  </div>
+  <div class="xidmet-services-part1">
+    <h3>Yeməkləri qiymətləndir</h3>
+    <div class="xidmet-services-part2">
+      <img src="/assets/yeni/esebi.png" alt="">
+      <img src="/assets/yeni/uzgun.png" alt="">
+      <img src="/assets/yeni/sad.png" alt="">
+      <img src="/assets/yeni/ego.png" alt="">
+      <img id="ulduz" src="/assets/yeni/ulduz.gif" alt="">
+    </div>
+  </div>
+<form action="#">
+  <div class="services-form-part1">
+    <h4>Qeydiniz</h4>
+    <textarea name="" id="textarea" cols="48" rows="5"></textarea>
+  </div>
+  <div class="services-form-part1">
+  <h4>Ad soyad</h4>
+  <input type="text" placeholder="Ad soyadınız">
+</div>
+  <div class="services-form-part1">
+    <h4>Əlaqə telefonu</h4>
+    <input type="text" placeholder="Nömrəniz">
+  </div>
+  <div class="services-form-btn">
+    <button><i class="fa-solid fa-star"></i>Dəyərləndir</button>
+  </div>
+</form>
+
+
+</section>
+
+<section class="menyu04">
+  <h2>Tədbirlər</h2>
+  <div class="event-header">
+    <div class="event-part1">
+      <div><img src="/assets/yeni/tedbir1.jpg" alt=""></div>
+      <div><h4>13 May</h4></div>
+      <div><p>Blues Night 20:00</p></div>
+    </div>
+    <div class="event-part1">
+      <div><img src="/assets/yeni/tedbir2.jpg" alt=""></div>
+      <div><h4>18 Iyun</h4></div>
+      <div><p>Rock Night 21:00</p></div>
+    </div>
+    <div class="event-part1">
+      <div><img src="/assets/yeni/tedbir3.jpg" alt=""></div>
+      <div><h4>19 Iyul</h4></div>
+      <div><p>101 Badə 22:00</p></div>
+    </div>
+  </div>
+</section>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+ <h2>Siesco Coffee & Wine</h2>
+  <div class="footer-sosial">
+    <div class="footer-sosial-part1"><i class="fa-solid fa-phone"></i><p>+994552221122</p></div>
+    <div class="footer-sosial-part1"><i class="fa-brands fa-facebook"></i><p>Facebook</p></div>
+      <div class="footer-sosial-part1"><i class="fa-brands fa-square-instagram"></i><p>Instagram</p></div>
+      <div class="footer-sosial-part1"><i class="fa-brands fa-tiktok"></i><p>Tiktok</p></div>
+  </div>
+  <div class="footer-unter"></div>
+   <h3 class="footer-h3">Ünvan</h3>
+   <div class="footer-adress">
+    <i class="fa-solid fa-map-pin"></i> <p>Mirzə İbrahimov 20, Bakı, Azərbaycan.</p>
+   </div>
+  </footer>
+
+
+  <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/script.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
